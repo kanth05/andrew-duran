@@ -3,10 +3,22 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CV||Andrew Duran</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
+
+    <script src="js/smooth-scroll.min.js"></script>
+    <script>
+      smoothScroll.init({
+      selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+      selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+      speed: 2000, // Integer. How fast to complete the scroll in milliseconds
+      easing: 'easeInOutCubic', // Easing pattern to use
+      offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+      callback: function ( anchor, toggle ) {} // Function to run after scrolling
+      });
+  </script>
   </head>
   <body>
     <!-- menú de navegación -->
@@ -21,11 +33,11 @@
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <div class="navbar-nav ml-auto text-center">
-            <a class="nav-item nav-link" href="#sec1">Acera de</a>
-            <a class="nav-item nav-link" href="#sec2">Estudios</a>
-            <a class="nav-item nav-link" href="#sec3">Experiencia</a>
-            <!-- <a class="nav-item nav-link" href="#sec4">Trabajos</a> -->
-            <a class="nav-item nav-link" href="#sec5">Testimonios</a>
+            <a class="nav-item nav-link" data-scroll href="#sec1">Acera de</a>
+            <a class="nav-item nav-link" data-scroll href="#sec2">Estudios</a>
+            <a class="nav-item nav-link" data-scroll href="#sec3">Experiencia</a>
+            <!-- <a class="nav-item nav-link" data-scroll href="#sec4">Trabajos</a> -->
+            <a class="nav-item nav-link" data-scroll href="#sec5">Testimonios</a>
           </div>
         </div>
       </nav>
@@ -49,7 +61,7 @@
                 <p>
                   <span class="d-block"><b>Fecha de nacimiento:</b> 26/08/1992</span>
                   <span class="d-block"><b>Celular:</b> +58 412 6028228</span>
-                  <span class="d-block"><b>Correo:</b>  adazure09@gmail.com</span>
+                  <span class="d-block"><b>Correo:</b>  azure_05hotmail.com</span>
                   <span class="d-block"><b>Dirección:</b> Caracas, Venezuela </span>
                   <span class="d-block"><b>Linkedin:</b> <a href="https://www.linkedin.com/in/andrew-alberto-duran-hurtado-411b4a157/" target="_blank">Dirigete por aquí</a></span>
                   <span class="d-block"><b>Github:</b> <a href="">Por acá</a></span>
@@ -256,7 +268,7 @@
       <hr class="">
       <p class="lead text-justify mb-5">En ésta sección, dejaré algunas referencias hechas por personas con las que he compartido en mi carrera profesional.</p>
       <div class="row">
-        <div class="list-group col-md-6">
+        <div class="list-group col-md-6 px-2">
           <a class="list-group-item list-group-item-action flex-column align-items-start">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">Dimara Rodríguez</h5>
@@ -306,19 +318,20 @@
   <!-- Fin Footer -->
   
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    
     <script src="js/bootstrap.min.js"></script>
 
     <script>
-
+      //Variables para manejar fechas en el CV
       let year       = document.getElementById('year');
       let curretYear = document.getElementById('curretYear');
       let date = new Date();
       //Volver los años de experiencia de manera dinámica
       year.innerHTML       = date.getFullYear() - 2017;
       curretYear.innerHTML = date.getFullYear();
-
     </script>
-
   </body>
 </html>
