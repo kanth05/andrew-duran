@@ -5,7 +5,7 @@ var myChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
         datasets: [{
-            data: [7, 3],
+            data: [70, 30],
             backgroundColor: [
                 'rgba(153, 55, 55, 0.9)',
                 'rgba(236, 232, 232, 1)'
@@ -27,7 +27,7 @@ var myChart = new Chart(ctx, {
         },
         title:{
             display:true,
-            text:'PHP',
+            text:'PHP 70%',
             fontColor: 'rgba(236, 232, 232, 1)'
         },
         legend:{
@@ -43,7 +43,7 @@ var myChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
         datasets: [{
-            data: [6, 4],
+            data: [60, 40],
             backgroundColor: [
                 'rgba(153, 55, 55, 0.9)',
                 'rgba(236, 232, 232, 1)'
@@ -65,7 +65,7 @@ var myChart = new Chart(ctx, {
     },
     title:{
         display:true,
-        text:'MYsql',
+        text:'MYsql 60%',
         fontColor: 'rgba(236, 232, 232, 1)'
     },
     legend:{
@@ -81,7 +81,7 @@ var myChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
         datasets: [{
-            data: [4, 5],
+            data: [50, 50],
             backgroundColor: [
                 'rgba(153, 55, 55, 0.9)',
                 'rgba(236, 232, 232, 1)'
@@ -103,7 +103,7 @@ var myChart = new Chart(ctx, {
     },
     title:{
         display:true,
-        text:'Laravel',
+        text:'Laravel 50%',
         fontColor: 'rgba(236, 232, 232, 1)'
     },
     legend:{
@@ -119,7 +119,7 @@ var myChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
         datasets: [{
-            data: [4, 5],
+            data: [50, 50],
             backgroundColor: [
                 'rgba(153, 55, 55, 0.9)',
                 'rgba(236, 232, 232, 1)'
@@ -141,7 +141,7 @@ var myChart = new Chart(ctx, {
     },
     title:{
         display:true,
-        text:'Wordpress',
+        text:'Wordpress 50%',
         fontColor: 'rgba(236, 232, 232, 1)'
     },
     legend:{
@@ -157,7 +157,7 @@ var myChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
         datasets: [{
-            data: [7, 3],
+            data: [60, 40],
             backgroundColor: [
                 'rgba(153, 55, 55, 0.9)',
                 'rgba(236, 232, 232, 1)'
@@ -179,7 +179,7 @@ var myChart = new Chart(ctx, {
     },
     title:{
         display:true,
-        text:'HTML & Css',
+        text:'HTML & Css 60%',
         fontColor: 'rgba(236, 232, 232, 1)'
     },
     legend:{
@@ -195,7 +195,7 @@ var myChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
         datasets: [{
-            data: [6, 4],
+            data: [60, 40],
             backgroundColor: [
                 'rgba(153, 55, 55, 0.9)',
                 'rgba(236, 232, 232, 1)'
@@ -217,7 +217,7 @@ var myChart = new Chart(ctx, {
     },
     title:{
         display:true,
-        text:'Javascript',
+        text:'Javascript 60%',
         fontColor: 'rgba(236, 232, 232, 1)'
     },
     legend:{
@@ -233,7 +233,7 @@ var myChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
         datasets: [{
-            data: [5, 5],
+            data: [50, 50],
             backgroundColor: [
                 'rgba(153, 55, 55, 0.9)',
                 'rgba(236, 232, 232, 1)'
@@ -255,7 +255,7 @@ var myChart = new Chart(ctx, {
     },
     title:{
         display:true,
-        text:'JQuery',
+        text:'JQuery 50%',
         fontColor: 'rgba(236, 232, 232, 1)'
     },
     legend:{
@@ -271,7 +271,7 @@ var myChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
         datasets: [{
-            data: [7.5, 2.5],
+            data: [75, 25],
             backgroundColor: [
                 'rgba(153, 55, 55, 0.9)',
                 'rgba(236, 232, 232, 1)'
@@ -293,7 +293,7 @@ var myChart = new Chart(ctx, {
     },
     title:{
         display:true,
-        text:'Pl/sql',
+        text:'Pl/sql 75%',
         fontColor: 'rgba(236, 232, 232, 1)'
     },
     legend:{
