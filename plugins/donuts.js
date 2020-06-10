@@ -16,7 +16,7 @@ var myChart = new Chart(ctx, {
         }],
         labels:[
             'Dominado',
-            'Total'
+            'Sin dominar'
             ],
     },
     options:{
@@ -54,7 +54,7 @@ var myChart = new Chart(ctx, {
         }],
         labels:[
             'Dominado',
-            'Total'
+            'Sin dominar'
             ],
     },
     options:{
@@ -92,7 +92,7 @@ var myChart = new Chart(ctx, {
         }],
         labels:[
             'Dominado',
-            'Total'
+            'Sin dominar'
             ],
     },
     options:{
@@ -130,7 +130,7 @@ var myChart = new Chart(ctx, {
         }],
         labels:[
             'Dominado',
-            'Total'
+            'Sin dominar'
             ],
     },
     options:{
@@ -168,7 +168,7 @@ var myChart = new Chart(ctx, {
         }],
         labels:[
             'Dominado',
-            'Total'
+            'Sin dominar'
             ],
     },
     options:{
@@ -206,7 +206,7 @@ var myChart = new Chart(ctx, {
         }],
         labels:[
             'Dominado',
-            'Total'
+            'Sin dominar'
             ],
     },
     options:{
@@ -244,7 +244,7 @@ var myChart = new Chart(ctx, {
         }],
         labels:[
             'Dominado',
-            'Total'
+            'Sin dominar'
             ],
     },
     options:{
@@ -282,7 +282,7 @@ var myChart = new Chart(ctx, {
         }],
         labels:[
             'Dominado',
-            'Total'
+            'Sin dominar'
             ],
     },
     options:{
