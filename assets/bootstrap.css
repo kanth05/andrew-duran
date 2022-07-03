@@ -10055,4 +10055,12 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+.smt{
+  scroll-margin-top: 1.5em;
+}
+
+.smt-5{
+  scroll-margin-top: 0.5em;
+}
 /*# sourceMappingURL=bootstrap.css.map */
