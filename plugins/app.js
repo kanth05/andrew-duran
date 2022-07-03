@@ -4,6 +4,12 @@ $(document).ready( function(){
 
         $('.nav-link').on( 'click', function(){
 
+            if ( window.innerWidth < 560 && !$('#navbar-toggler').hasClass('collapsed') ) {
+                $('#navbar-toggler').addClass('collapsed');
+                $('#navbar-toggler').attr('aria-expanded', false);
+                $('#navbarTogglerDemo01').removeClass('show');
+            }
+            
             let href = $(this).attr('href');
             $("html, body").animate({ scrollTop: $(`${href}`).offset().top - 50}, 500);
 
